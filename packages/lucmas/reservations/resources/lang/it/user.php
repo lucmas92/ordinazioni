@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'users' => 'Utenti',
+    'view-detail' => 'Visualizza dettaglio',
+    'delete-ask' => 'Sei sicuro di voler eliminare questo utente?',
+    'extra-permissions' => 'Permessi aggiuntivi',
+    'is-superadmin' => 'L\'utente è superadmin, può fare tutto',
+    'edit' => 'Modifica utente',
+    'update-success' => 'Utente modificato con successo',
+    'store-success' => 'Utente creato con successo',
+    'delete-success' => 'Utente rimosso con successo',
+    'create' => 'Creazione nuovo utente',
+    'not-superadmin' => 'Non hai permessi sufficienti per creare o modificare un utente "Superadmin"',
+    'can-also' => 'L\'utente ha inoltre i seguenti permessi',
+    'will' => 'L\'utente potrà',
+    'detail' => 'Dettaglio utente',
+    'no-extra-permission'=> 'Nessun permesso oltre a quelli del ruolo',
+    'login-as' => 'Effettua login',
+    'logged-as'  => 'Login effettuato come',
+    'returnToPrevious' => 'Esci da questo utente',
+    'cannot-login-as-superadmin' => 'Non è possibile effetuare il login con un account superadmin',
+    'cannot-edit' => 'Non è possibile modificare questo utente poichè ha un ruolo superiore',
+    'role' => 'Ruolo',
+    'profile' => 'Profile',
+    'permission_manager' => 'Gestione Permessi',
+    'field' => [
+        'id' => ['name' => 'Id', 'placeholder' => '', 'help' => ''],
+        'name' => ['name' => 'Nome', 'placeholder' => 'Inserisci il nome dell\'utente', 'help' => 'Inserisci il nome dell\'utenete'],
+        'password' => ['name' => 'Password', 'placeholder' => 'Inserisci la password', 'help' => 'Inserisci la password'],
+        'password_confirmation' => ['name' => 'Conferma Password', 'placeholder' => 'Inserisci di nuovo la password', 'help' => 'Inserisci di nuovo la password'],
+        'username' => ['name' => 'Username', 'placeholder' => 'Inserisci l\'username dell\'utente', 'help' => 'Inserisci l\'username dell\'utente'],
+        'role' => ['name' => 'Ruolo', 'placeholder' => '', 'type' => ['enabled' => 'Attivo','disabled' => 'Non attivo'], 'help' => 'Imposta il ruolo dell\'utente'],
+        'email' => ['name' => 'Email', 'placeholder' => 'Inserisci la mail dell\'utente', 'help' => 'Inserisci la mail dell\'utente'],
+    ],
+    'return-to-users' => 'Ritorna agli utenti',
+    'return-to-user' => 'Ritorna all\'utente'
+];

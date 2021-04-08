@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'permissions' => 'Permessi',
+    'permission-group' => 'Gruppo',
+    'delete-success' => 'Permesso eliminato con successo',
+    'no-group' => 'Non appartiene a nessun gruppo',
+    'update-success' => 'Permesso modificato con successo',
+    'store-success' => 'Permesso creato con successo',
+    'delete-ask' => 'Sei sicuro di voler eliminare questo permesso?',
+    'edit' => 'Modifica permesso',
+    'detail' => 'Dettaglio permesso',
+    'create' => 'Creazione nuovo permesso',
+    'not-in-group' => 'Permessi non appartenenti ad un gruppo',
+    'empty' => 'Non sono presenti permessi',
+    'not-allowed' => 'Non puoi assegnare questo permesso',
+    'return-to-permissions' => 'Ritorna ai permessi',
+    'return-to-permission' => 'Ritorna al dettaglio',
+    'group' => [
+        'contains' => 'Contiene',
+        'contains-none' => 'Non contiene permessi',
+        'detail' => 'Dettaglio gruppo di permessi',
+        'groups' => 'Gruppi di permessi',
+        'delete-success' => 'Gruppo di permessi eliminato con successo',
+        'store-success' => 'Gruppo di permessi creato con successo',
+        'update-success' => 'Gruppo di permessi modificato con successo',
+        'edit' => 'Modifica gruppo di permessi',
+        'create' => 'Creazione gruppo di permessi',
+        'delete-ask' => 'Sei sicuro di voler eliminare questo gruppo di permessi?',
+        'empty' => 'Non sono presenti gruppi di permessi',
+        'field' => [
+            'name' => ['name' => 'Nome', 'placeholder' => 'Inserisci il nome in :LANGUAGE', 'help' => 'Inserisci nome del gruppo di permessi'],
+            'description' => ['name' => 'Descrizione', 'placeholder' => 'Inserisci la descrizione in :LANGUAGE', 'help' => 'Inserisci la descrizione del gruppo di permessi'],
+            'slug' => ['name' => 'Slug', 'placeholder' => 'Inserisci lo slug', 'help' => 'Inserisci lo slug del gruppo di permessi'],
+        ],
+        'return-to-permission-groups' => 'Ritorna ai gruppi di permessi',
+        'return-to-permission-group' => 'Ritorna al dettaglio',
+    ],
+    'field' => [
+        'name' => ['name' => 'Nome', 'placeholder' => 'Inserisci il nome in :LANGUAGE', 'help' => 'Inserisci nome del permesso'],
+        'description' => ['name' => 'Descrizione', 'placeholder' => 'Inserisci la descrizione in :LANGUAGE', 'help' => 'Inserisci la descrizione del permesso'],
+        'group' => ['name' => 'Gruppo', 'placeholder' => 'Inserisci il gruppo', 'help' => 'Inserisci il gruppo al quale appartiene il permesso'],
+        'slug' => ['name' => 'Slug', 'placeholder' => 'Inserisci lo slug', 'help' => 'Inserisci lo slug del permesso'],
+    ]
+];

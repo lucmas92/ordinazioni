@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'roles' => 'Ruoli',
+    'detail' => 'Visualizza dettaglio',
+    'edit' => 'Modifica ruolo',
+    'update-success' => 'Ruolo modificato con successo',
+    'store-success' => 'Ruolo creato con successo',
+    'delete-ask' => 'Sei sicuro di voler eliminare questo ruolo?',
+    'delete-success' => 'Ruolo eliminato con successo',
+    'parent' => 'Ruolo genitore',
+    'can' => 'Permessi aggiuntivi',
+    'no-parent' => 'Nessun genitore',
+    'will' => 'Questo ruolo potrà',
+    'superadmin-delete' => 'Non è possibile cancellare il ruolo di superadmin',
+    'is-superadmin' => 'Può fare tutto',
+    'superadmin-update' => 'Non è possibile modificare il ruolo superadmin',
+    'create' => 'Creazione nuovo ruolo',
+    'delete-has-sons' => 'Questo ruolo non può essere eliminato perchè è genitore di altri ruoli',
+    'parent-loop' => 'Non è possibile assegnare come genitore il ruolo scelto poichè ciò causerebbe un ciclo infinito di genitore-figlio',
+    'role-detail' => 'Dettaglio ruolo',
+    'empty' => 'Non sono presenti ruoli',
+    'delete-has-users' => 'Non è possibile eliminare un ruolo che è stato assegnato a degli utenti',
+    'no-default-description' => 'È necessario inserire la descrizione in ' . __('language.'.config('translatable.locale')) . 'se la si vuole inserire anche in altre lingue',
+    'field' => [
+        'id' => ['name' => 'Id', 'placeholder' => '', 'help' => ''],
+        'name' => ['name' => 'Nome', 'placeholder' => 'Inserisci il nome ruolo in :LANGUAGE', 'help' => 'Inserisci il nome ruolo in lingua'],
+        'description' => ['name' => 'Descrizione', 'placeholder' => 'Inserisci la descrizione del ruolo in :LANGUAGE', 'help' => 'Inserisci la descrizione del ruolo in lingua'],
+        'collection' => ['name' => 'Collezione', 'placeholder' => 'Seleziona la collezione', 'help' => 'Seleziona la collezione'],
+        'active' => ['name' => 'Stato', 'placeholder' => '', 'type' => ['enabled' => 'Attiva', 'disabled' => 'Non attiva'], 'help' => 'Imposta lo stato della caratteristica'],
+        'parent' => ['name' => 'Ruolo genitore', 'placeholder' => 'Imposta il ruolo genitore', 'help' => 'Imposta il ruolo genitore'],
+        'slug' => ['name' => 'Slug', 'placeholder' => 'Slug', 'help' => 'imposta lo Slug'],
+    ],
+    'return-to-roles' => 'Ritorna ai ruoli',
+    'return-to-role' => 'Ritorna al ruolo'
+];

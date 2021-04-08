@@ -1,0 +1,94 @@
+body{
+    background-image: url('../../images/sfondo4.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-size: 0.8rem !important;
+}
+
+#bg{
+    background-color: rgba(255,255,255,0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btn-dark{
+    background-color: #000000 !important;
+}
+
+.text-dark{
+    color: #000000 !important;
+}
+
+.layout-sidebar-large .sidebar-left-secondary, .layout-sidebar-large .sidebar-left {
+    top: 50px  !important;
+    height: calc(100vh - 50px);
+}
+
+.layout-sidebar-large .main-header {
+    height: 50px !important;
+}
+
+.main-content-wrap {
+    margin-top: 50px;
+    min-height: calc(100vh - 50px);
+    background-color: #f5f8fa !important;
+}
+.app-footer {
+    margin-top: 6rem;
+}
+
+.navigation-left > .nav-item.active .triangle {
+    min-height: 100% !important;
+    right: auto !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    border-width: 0 0 0 5px !important;
+    border-style: solid;
+    border-color: #165ec3 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #cfd3dd !important;
+}
+
+.nav-tabs .nav-link {
+    color: #cfd3dd !important ;
+}
+
+.badge-custom{
+    background-color: #cfd3dd !important;
+    color: #ffffff !important;
+}
+
+.nav-link.active > .badge-custom {
+    background-color: #165ec3 !important;
+}
+
+.nav-link:hover {
+    /*border: none !important;*/
+    border-bottom: 1px solid #cfd3dd !important;
+}
+
+.nav-link.active {
+    border: none;
+    color: #165ec3 !important;
+    font-weight: bold !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #165ec3 !important;
+}
+
+.modal-dialog .modal-content {
+    border-radius: 0;
+}
+
+.modal-header, .modal-footer{
+    padding: 0.5rem 1rem;
+    border:none;
+}

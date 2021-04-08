@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'total_count' => 'Numero totale prodotti',
+    'products' => 'Prodotti',
+    'product' => 'Prodotto',
+    'create' => 'Creazione nuovo prodotto',
+    'create_button' => 'Nuovo prodotto',
+    'edit' => 'Modifica prodotto',
+    'update-success' => 'Prodotto modificato con successo',
+    'create-success' => 'Prodotto creato con successo',
+    'delete-success' => 'Prodotto eliminato con successo',
+    'delete-ask' => 'Sei sicuro di voler eliminare questo prodotto?',
+    'detail' => 'Dettaglio prodotto',
+    'not-active-product' => 'Prodotto non attivo',
+    'not-active-message' => 'Questo prodotto potrebbe non essere visibile da tutti gli utenti',
+    'empty' => 'Non sono presenti prodotti',
+    'not-found' => 'Prodotto non trovato',
+    'categories-belongs-to' => 'Appartiene alle categorie',
+    'has-images' => 'Impossibile eliminare il prodotto poichè contiene immagini',
+    'has-attachments' => 'Impossibile eliminare il prodotto poichè contiene allegati',
+    'return-to-product' => 'Ritorna al prodotto',
+    'search-empty' => 'Nessun prodotto trovato che soddisfi la ricerca',
+    'pricelistCode' => 'Codice Listino',
+    'category' => [
+        'empty' => 'Questa categoria non contiene prodotti'
+    ],
+    'error-has-images' => 'Impossibile eliminare il prodotto poichè contiene immagini',
+    'error-has-attachments' => 'Impossibile eliminare il prodotto poichè contiene allegati',
+    'field' => [
+        'id' => ['name' => 'Id', 'placeholder' => '', 'help' => ''],
+        'name' => ['name' => 'Nome', 'placeholder' => 'Inserisci il nome del prodotto in :LANGUAGE', 'help' => 'Inserisci il nome del prodotto in lingua'],
+        'code' => ['name' => 'Codice', 'placeholder' => 'Inserisci il codice prodotto', 'help' => 'Inserisci il nome codice prodotto'],
+        'description_short' => ['name' => 'Descrizione corta', 'placeholder' => 'Inserisci la descrizione corta del prodotto in :LANGUAGE', 'help' => 'Inserisci la descrizione corta del prodotto in lingua'],
+        'description' => ['name' => 'Descrizione', 'placeholder' => 'Inserisci la descrizione del prodotto in :LANGUAGE', 'help' => 'Inserisci la descrizione del prodotto in lingua'],
+        'photo' => ['name' => 'Foto', 'placeholder' => 'Carica una foto', 'help' => 'Carica una foto per la categoria'],
+        'active' => ['name' => 'Stato', 'placeholder' => '', 'type' => ['enabled' => 'Attivo','disabled' => 'Non attivo'], 'help' => 'Imposta lo stato del prodotto'],
+    ],
+    'return-to-products' => 'Ritorna al prodotto',
+];

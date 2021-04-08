@@ -1,0 +1,39 @@
+{
+    "name": "lucmas/reservations",
+    "type": "project",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Luca Massignani",
+            "email": "lmassignani@sanmarcoinformatica.it",
+            "homepage": "https://www.4words.it",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1",
+        "yajra/laravel-auditable": "^4.0",
+        "nategood/httpful": "*",
+        "astrotomic/laravel-translatable": "^11.5",
+        "ext-json": "*",
+        "ext-mysqli": "*",
+        "silviolleite/laravelpwa": "~2.0.0",
+        "laravel/ui": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucmas\\Reservations\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lucmas\\Reservations\\Providers\\ReservationsServiceProvider",
+                "Lucmas\\Reservations\\Providers\\ViewServiceProvider",
+                "Lucmas\\Reservations\\Providers\\RouteServiceProvider"
+            ]
+        }
+    }
+}
