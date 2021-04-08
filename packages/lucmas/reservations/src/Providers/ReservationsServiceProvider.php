@@ -151,7 +151,7 @@ class ReservationsServiceProvider extends ServiceProvider
     public function boot(Router $router, Kernel $kernel)
     {
 
-        $this->cleanCart();
+        //$this->cleanCart();
 
         // pubblicazione di file e cartelle necessarie
         $this->publish();
@@ -206,11 +206,6 @@ class ReservationsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../../resources/assets' => public_path('assets'),
         ], 'Lucmas\Reservations_assets');
-
-        // pubblicazione immagini
-        $this->publishes([
-            __DIR__ . '/../../resources/images' => public_path('images/'),
-        ], 'Lucmas\Reservations_images');
 
         // pubblicazione fontawesome
         $this->publishes([
